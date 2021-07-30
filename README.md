@@ -8,7 +8,7 @@ This script will work with any format mutagen supports. MP3 and WAV will probabl
 
 You will need mutagen installed [https://pypi.org/project/mutagen/](https://pypi.org/project/mutagen/). I may include a requirements.txt file later, but I just installed this via my package manager. You can use pip and (preferably) a venv/virtualenv if you wish. There are no other dependencies.
 
-The program can target either a single file or a directory containing multiple files. If you wish to target nested directoiries, the script will prompt you for confirmation (to avoid accidentally tagging excessive files).
+The program can target either a single file or a directory containing multiple files. If you wish to target nested directories, the script will prompt you for confirmation (to avoid accidentally tagging excessive files).
 
 So if you wanted to update the 'artist' tag on a single file, you would run:
 
