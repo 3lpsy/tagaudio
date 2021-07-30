@@ -2,7 +2,7 @@
 
 This simple script leverages the mutagen library to add tags to audio files. While programs such as picard are great for accomplishing this, I could not find any CLI libraries that supported opus.
 
-This script will work with any format mutagen supports. MP3 and WAV will probably not work, though it may be possible in the future to add alternative mechanisms for updating these files.
+This script will work with any format mutagen supports. MP3 and WAV will probably not work at the moment but are supported by mutagen. Mutagen was having difficulty 'guessing' these types via the `File` API. Might fix this in the future.
 
 ## Instructions
 
